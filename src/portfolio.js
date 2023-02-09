@@ -31,7 +31,7 @@ const projects = [
   {
     name: 'Crypto-Conversion-Project',
     description:
-      'AS A owner of crypto currency, I WANT to be able to search and look coins at ease',
+      'A simple and clean Crypto-currency web app that takes in information using a crypto api and displays the information. This app was created using Bulma, HTML, CSS, and Javascript.',
     stack: ['Javascript', 'HTML', 'CSS', 'BULMA'],
     sourceCode: 'https://github.com/Xenon789/Crypto-conversion-project',
     livePreview: 'https://xenon789.github.io/Crypto-conversion-project/',
@@ -39,7 +39,7 @@ const projects = [
   {
     name: 'Workday Scheduler',
     description:
-      'A web application that you can use to scheduler your daily events for work.',
+      'A simple web application that you can use to scheduler your daily events for work.',
     stack: ['HTML', 'CSS', 'Javascript'],
     sourceCode: 'https://github.com/Xenon789/workday-scheduler',
     livePreview: 'https://xenon789.github.io/workday-scheduler/',
