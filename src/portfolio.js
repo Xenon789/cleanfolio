@@ -6,14 +6,14 @@ const header = {
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Xenon Santillan',
+  role: 'Full Stack Developer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+    'A recent Full Stack Development Bootcamp Graduate, looking to broaden and extend my skills and knowledge.',
+  resume: 'https://docs.google.com/document/d/1CUJSQLRf-8DQgNs_Swr8g2pHZlJx-Glo/edit?usp=sharing&ouid=115643213634257744656&rtpof=true&sd=true',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/xenon-santillan-b2148a24a/',
+    github: 'https://github.com/Xenon789/',
   },
 }
 
@@ -21,28 +21,28 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Wallet Watchdog',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'You\'re a Github user and tech enthusiast looking to support new repositories while also needing an application to help you manage your finances. Introducing... Wallet Watchdog. Tell your digital dog about your finances and help manage your expenses by setting monthly goals and limits for yourself. Your wallet watchdog will help you visualize your expenses and adjust your budgets accordingly.',
+    stack: ['CSS', 'Javascript', 'Handlebars.js', 'Express', 'MySQL', 'Heroku'],
+    sourceCode: 'https://github.com/Xenon789/Wallet-Watchdog',
+    livePreview: 'https://wallet-watchdog-1.herokuapp.com/',
   },
   {
-    name: 'Project 2',
+    name: 'Crypto-Conversion-Project',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'AS A owner of crypto currency, I WANT to be able to search and look coins at ease',
+    stack: ['Javascript', 'HTML', 'CSS', 'BULMA'],
+    sourceCode: 'https://github.com/Xenon789/Crypto-conversion-project',
+    livePreview: 'https://xenon789.github.io/Crypto-conversion-project/',
   },
   {
-    name: 'Project 3',
+    name: 'Workday Scheduler',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A web application that you can use to scheduler your daily events for work.',
+    stack: ['HTML', 'CSS', 'Javascript'],
+    sourceCode: 'https://github.com/Xenon789/workday-scheduler',
+    livePreview: 'https://xenon789.github.io/workday-scheduler/',
   },
 ]
 
@@ -53,19 +53,30 @@ const skills = [
   'CSS',
   'JavaScript',
   'TypeScript',
+  'NodeJS',
+  'Express',
   'React',
-  'Redux',
+  'Regex',
   'SASS',
-  'Material UI',
+  'Bootstrap',
   'Git',
   'CI/CD',
   'Jest',
-  'Enzyme',
+  'Tailwind CSS',
+  'C++',
+  'Java',
+  'Python',
+  'Handlebars.js',
+  'Agile Software Development',
+  'Wire Framing',
+  'UI/UX',
+  'Adobe Photoshop',
+  'Adobe Lightroom'
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'xenonxpo@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
